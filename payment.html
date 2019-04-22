@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OnlineMobileRechargePortal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="portal.css">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Home</a>
+      
+      <a class="navbar-brand" href="#">History</a>
+      <a class="navbar-brand" href="#">Contact</a>
+    </div>
+    </div>
+  </nav>
+  <div class="main">
+        <div class="col-md-6">
+           <div class="login-form">
+              <form>
+                 <div class="form-group">
+                    <label>Card Holder Name</label>
+                    <input type="text" class="form-control" placeholder="Card Holder Name">
+                 </div>
+                 <div class="form-group">
+                    <label>Card Number</label>
+                    <input type="text" class="form-control" placeholder="Card Number">
+                 </div>
+                 <div class="form-group">
+                        <label>Expiry Date</label>
+                        <select class="input-block-level">
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                              </select>
+                              <select class="input-block-level">
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+                                    <option>2024</option>
+                                    <option>2025</option>
+                                    <option>2026</option>
+                                    <option>2027</option>
+                                  </select>
+                  </div>
+                  <div class="form-group">
+                     <label>CVV</label>
+                     <input type="text" class="input-block-level" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required>
+                  </div>
+                 
+                 <button type="submit" class="btn btn-secondary" formaction="alert.html">submit</button>
+              </form>
+           </div>
+        </div>
+     </div>
