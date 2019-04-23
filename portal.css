@@ -83,6 +83,37 @@ section{
     margin-left: 10%;
     color:#fff;
 }
+.abc{
+    margin-left: 10%;
+    margin-top:5%;
+    color:#000;
+}
+
+
+h3{
+    margin-top:5%;
+    margin-left: 10%;
+    color:#fff;
+}
 #but{
     margin-top: 10%;
+}
+.btn-b{
+    background-color: #000 !important;
+    color: #fff;
+    margin-top:3%;
+}
+.btn-bl{
+    background-color: #000 !important;
+    color: #fff;
+    margin-top:0.5%;
+}
+.btn-bt{
+    background-color: #000 !important;
+    color: #fff;
+    margin-top:0.7%;
+}
+#tt{
+    margin-top:30%;
+    margin-left:20%;
 }

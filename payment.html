@@ -16,31 +16,37 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Home</a>
-      
-      <a class="navbar-brand" href="#">History</a>
-      <a class="navbar-brand" href="#">Contact</a>
-    </div>
-    </div>
-  </nav>
+      <nav class="navbar navbar-inverse">
+            <div class="container">
+              <div class="navbar-header">
+                  <form>
+                  <button type="submit" class="btn btn-b" formaction="index.html">Home</button>
+                  <button type="submit" class="btn btn-b" formaction="history.html">History</button>
+                  <button type="submit" class="btn btn-b" formaction="contact.html">Contact</button>
+                  </form>
+              
+            </div>
+            <form>
+            <button type="submit" class="btn btn-bt" formaction="index.html" style="float: right;">Logout</button>
+            </form>
+            </div>
+            
+          </nav>
   <div class="main">
         <div class="col-md-6">
            <div class="login-form">
               <form>
                  <div class="form-group">
                     <label>Card Holder Name</label>
-                    <input type="text" class="form-control" placeholder="Card Holder Name">
+                    <input type="text" class="form-control" placeholder="Card Holder Name" required>
                  </div>
                  <div class="form-group">
                     <label>Card Number</label>
-                    <input type="text" class="form-control" placeholder="Card Number">
+                    <input type="text" class="form-control" placeholder="Card Number" required>
                  </div>
                  <div class="form-group">
                         <label>Expiry Date</label>
-                        <select class="input-block-level">
+                        <select class="input-block-level" required>
                                 <option>January</option>
                                 <option>February</option>
                                 <option>March</option>

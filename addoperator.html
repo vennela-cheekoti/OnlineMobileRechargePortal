@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="portal.css">
-  <script src="userlogin.js"></script>
 </head>
 
 <body>
@@ -20,7 +19,6 @@
                   <form>
                   <button type="submit" class="btn btn-b" formaction="index.html">Home</button>
                   <button type="submit" class="btn btn-b" formaction="contact.html">Contact</button>
-                  <button type="submit" class="btn btn-b" formaction="admin.html">Admin</button>
                   </form>  
                </div>
             </div>
@@ -31,15 +29,14 @@
        <div class="login-form">
           <form>
              <div class="form-group">
-                <label>User Name</label>
-                <input type="text" class="form-control" name="username" id="username" placeholder="User Name" required>
+                <label>Operator Id</label>
+                <input type="text" class="form-control" placeholder="Operator Id">
              </div>
              <div class="form-group">
-                <label>Password</label>
-                <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                <label>Operator Name</label>
+                <input type="text" class="form-control" placeholder="Operator Name">
              </div>
-             <input type="button" class="btn btn-black" value="Login" id="submit" onclick="validate()"/>
-             <button type="submit" class="btn btn-secondary" formaction="register.html">register</button>
+             <button type="submit" class="btn btn-black" formaction="alert2.html">submit</button>
           </form>
        </div>
     </div>
